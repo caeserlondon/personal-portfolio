@@ -6,6 +6,7 @@
   top: 0;
   z-index: 3;
   min-height: 500px;
+
   svg {
     color: #023b59;
   }
@@ -33,6 +34,7 @@
     top: 50%;
     margin-top: -120px;
     width: 100%;
+
     a {
       font-size: 22px;
       color: #4d4d4e;
@@ -41,20 +43,83 @@
       height: 51px;
       position: relative;
       text-decoration: none;
+
       i {
         transition: all 0.3s ease-out;
       }
+
       &:hover {
-        columns: #ffd700;
+        color: #ffd700;
+
+        svg {
+          opacity: 0;
+        }
+
+        &:after {
+          opacity: 1;
+        }
       }
-      svg {
+
+      &:after {
+        content: '';
+        font-size: 9px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
         opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+
+      &:first-child {
+        &::after {
+          content: 'HOME';
+        }
+      }
+    }
+
+    a.about-link {
+      &:after {
+        content: 'ABOUT';
+      }
+    }
+
+    a.contact-link {
+      &:after {
+        content: 'CONTACT';
+      }
+    }
+
+    a.active {
+      svg {
+        color: #ffd700;
+      }
+    }
+  }
+
+  ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+      a {
+        padding: 7px;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+
+        &:hover svg {
+          color: #ffd700;
+        }
       }
     }
   }
 }
-
-// .icon {
-//   // background-color: #ffd700;
-//   color: #ffd700;
-// }
