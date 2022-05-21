@@ -1,0 +1,29 @@
+.stage-cube-cont {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  padding-top: 18%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+
+  .face1 {
+    color: #5ed4f4;
+  }
+  .face2 {
+    color: #f06529;
+  }
+  .face3 {
+    color: #28a4d9;
+  }
+  .face4 {
+    color: #efd81d;
+  }
+  .face5 {
+    color: red;
+  }
+  .face6 {
+    color: greenyellow;
+  }
+}
