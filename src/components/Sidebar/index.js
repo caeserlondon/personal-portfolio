@@ -2,7 +2,6 @@ import React from 'react'
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 
 import { AiOutlineHome } from 'react-icons/ai'
 import { FiUser } from 'react-icons/fi'
@@ -17,7 +16,6 @@ const Sidebar = () => {
     <div className="nav-bar">
       <Link className="logo" to="/">
         <img src={LogoS} alt="logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="logo" />
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
