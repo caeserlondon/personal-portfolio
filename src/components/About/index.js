@@ -51,22 +51,22 @@ const About = () => {
 
       <div className="stage-cube-cont">
         <div className="cubespinner">
-          <div className="face1" icon={useState} color="#61DBFB">
+          <div className="face1">
             <FaReact />
           </div>
-          <div className="face2" icon={useState} color="#61DBFB">
+          <div className="face2">
             <FaHtml5 />
           </div>
-          <div className="face3" icon={useState} color="#61DBFB">
+          <div className="face3">
             <FaCss3Alt />
           </div>
-          <div className="face4" icon={useState} color="#61DBFB">
+          <div className="face4">
             <SiJavascript />
           </div>
-          <div className="face5" icon={useState} color="#61DBFB">
+          <div className="face5">
             <DiRuby />
           </div>
-          <div className="face6" icon={useState} color="#61DBFB">
+          <div className="face6">
             <FaNodeJs />
           </div>
         </div>
