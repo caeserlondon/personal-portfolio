@@ -1,6 +1,11 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-
+import { FaHtml5 } from 'react-icons/fa'
+import { FaReact } from 'react-icons/fa'
+import { FaCss3Alt } from 'react-icons/fa'
+import { SiJavascript } from 'react-icons/si'
+import { DiRuby } from 'react-icons/di'
+import { FaNodeJs } from 'react-icons/fa'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
@@ -42,6 +47,29 @@ const About = () => {
           I'm friendly, confident, naturally curious and prepetually working on
           improving my skills and learning new technologies.
         </p>
+      </div>
+
+      <div className="stage-cube-cont">
+        <div className="cubespinner">
+          <div className="face1" icon={useState} color="#61DBFB">
+            <FaReact />
+          </div>
+          <div className="face2" icon={useState} color="#61DBFB">
+            <FaHtml5 />
+          </div>
+          <div className="face3" icon={useState} color="#61DBFB">
+            <FaCss3Alt />
+          </div>
+          <div className="face4" icon={useState} color="#61DBFB">
+            <SiJavascript />
+          </div>
+          <div className="face5" icon={useState} color="#61DBFB">
+            <DiRuby />
+          </div>
+          <div className="face6" icon={useState} color="#61DBFB">
+            <FaNodeJs />
+          </div>
+        </div>
       </div>
     </div>
   )
