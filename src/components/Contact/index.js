@@ -22,6 +22,41 @@ const Contact = () => {
               index={15}
             />
           </h1>
+          <p>
+            I'm open to full time job offers or freelance opertunities. if you
+            have any question or request, Please don't hasitate to contact me.
+          </p>
+          <div className="contact-form">
+            <form action="">
+              <ul>
+                <li className="half">
+                  <input type="text" name="name" placeholder="Name" required />
+                </li>
+                <li className="half">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    placeholder="Subject"
+                    type="text"
+                    name="subject"
+                    required
+                  />
+                </li>
+                <li>
+                  <textarea name="message" placeholder="Message" required />
+                </li>
+                <li>
+                  <input type="submit" className="flat-button" value="SEND" />
+                </li>
+              </ul>
+            </form>
+          </div>
         </div>
       </div>
       <Loader type="pacman" />
