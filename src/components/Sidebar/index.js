@@ -25,7 +25,7 @@ const Sidebar = () => {
           exact="true"
           activeclassname="active"
           className="about-link"
-          to="/about-link"
+          to="/about"
         >
           <FiUser />
         </NavLink>
