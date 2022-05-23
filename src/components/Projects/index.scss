@@ -1,0 +1,29 @@
+.text-zone {
+  position: absolute;
+  left: 20%;
+  top: 50px;
+  h1 {
+    font-size: 40px;
+    font-family: 'Coolvetica';
+    color: var(--yellow);
+    font-weight: 400;
+    margin-bottom: 10px;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      font-size: 18px;
+      position: absolute;
+      margin-top: -10px;
+      left: -10px;
+      opacity: 0.6;
+      line-height: 18px;
+    }
+
+    .text-animate-hover {
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
