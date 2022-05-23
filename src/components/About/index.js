@@ -1,11 +1,11 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { FaHtml5 } from 'react-icons/fa'
-import { FaReact } from 'react-icons/fa'
+import { FaBootstrap, FaHtml5, FaGitSquare, FaAngular } from 'react-icons/fa'
+import { FaReact, FaSass, FaNodeJs } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
-import { SiJavascript } from 'react-icons/si'
+import { SiAdobephotoshop, SiAdobexd, SiJavascript } from 'react-icons/si'
 import { DiRuby } from 'react-icons/di'
-import { FaNodeJs } from 'react-icons/fa'
+
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Loader from 'react-loaders'
@@ -44,7 +44,7 @@ const About = () => {
           <p>
             I graduated from Makers Academy, an immersive 16 weeks full stack
             software development BootCamp where I strengthened my coding
-            knowledge
+            knowledge.
           </p>
           <p>
             I'm friendly, confident, naturally curious and prepetually working
@@ -58,10 +58,10 @@ const About = () => {
               <FaReact />
             </div>
             <div className="face2">
-              <FaHtml5 />
+              <FaGitSquare />
             </div>
             <div className="face3">
-              <FaCss3Alt />
+              <FaAngular />
             </div>
             <div className="face4">
               <SiJavascript />
@@ -71,6 +71,28 @@ const About = () => {
             </div>
             <div className="face6">
               <FaNodeJs />
+            </div>
+          </div>
+        </div>
+        <div className="stage-cube-cont2">
+          <div className="cubespinner2">
+            <div className="face1">
+              <FaBootstrap />
+            </div>
+            <div className="face2">
+              <FaHtml5 />
+            </div>
+            <div className="face3">
+              <FaCss3Alt />
+            </div>
+            <div className="face4">
+              <SiAdobexd />
+            </div>
+            <div className="face5">
+              <SiAdobephotoshop />
+            </div>
+            <div className="face6">
+              <FaSass />
             </div>
           </div>
         </div>
