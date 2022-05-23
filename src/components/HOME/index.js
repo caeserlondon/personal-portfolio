@@ -8,7 +8,21 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['a', 'e', 's', 'e', 'r']
+  const nameArray = [
+    'a',
+    'e',
+    's',
+    'e',
+    'r',
+    ' ',
+    ' ',
+    'A',
+    'l',
+    '-',
+    'A',
+    'n',
+    'i',
+  ]
   const jobArray = [
     'w',
     'e',
@@ -37,16 +51,11 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-            <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
-            <br />
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>
             <img src={LogoTitle} alt="developer" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
-              index={15}
+              index={9}
             />
             <br />
             <AnimatedLetters
@@ -59,6 +68,45 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+        </div>
+        <div className="cube-zone">
+          <section class="box-container">
+            <div class="box rotating box-1">
+              <div class="wall wall-1">
+                {' '}
+                <h2 class="text">CAESER AL-ANI</h2>
+              </div>
+              <div class="wall wall-2"></div>
+              <div class="wall wall-3">
+                <h2 class="text">GRAPHIC DESIGNER</h2>
+              </div>
+              <div class="wall wall-4">
+                <h2 class="text">WEB DEVELOPER</h2>
+              </div>
+              <div class="wall wall-5"></div>
+              <div class="wall wall-6">
+                <h2 class="text">CAESER AL-ANI</h2>
+              </div>
+
+              <div class="box rotating box-2">
+                <div class="wall wall-1"></div>
+                <div class="wall wall-2"></div>
+                <div class="wall wall-3"></div>
+                <div class="wall wall-4"></div>
+                <div class="wall wall-5"></div>
+                <div class="wall wall-6"></div>
+
+                <div class="box rotating box-3">
+                  <div class="wall wall-1"></div>
+                  <div class="wall wall-2"></div>
+                  <div class="wall wall-3"></div>
+                  <div class="wall wall-4"></div>
+                  <div class="wall wall-5"></div>
+                  <div class="wall wall-6"></div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <Loader type="ball-scale" />
