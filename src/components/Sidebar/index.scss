@@ -8,7 +8,7 @@
   min-height: 500px;
 
   svg {
-    color: #023b59;
+    color: var(--gray);
   }
 
   .logo {
@@ -18,7 +18,7 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 24px;
+      width: 30px;
       height: auto;
       &.sub-logo {
         width: 50px;
@@ -94,7 +94,7 @@
 
     a.active {
       svg {
-        color: #ffd700;
+        color: var(--yellow);
       }
     }
   }
@@ -113,11 +113,11 @@
       a {
         padding: 7px;
         display: block;
-        font-size: 15px;
+        font-size: 22px;
         line-height: 16px;
 
         &:hover svg {
-          color: #ffd700;
+          color: var(--yellow);
         }
       }
     }
