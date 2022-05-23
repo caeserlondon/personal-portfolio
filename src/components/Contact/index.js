@@ -1,16 +1,43 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+
+  const form = useRef()
 
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+    // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_MY_SERVICE_ID,
+
+        process.env.REACT_APP_MY_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_MY_PUBLIC_KEY
+      )
+
+      .then(
+        () => {
+          alert('Message Successfully sent!')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Faild to send the message, Please try again!')
+        }
+      )
+  }
+
   return (
     <>
       <div className="container contact-page">
@@ -27,7 +54,7 @@ const Contact = () => {
             have any question or request, Please don't hasitate to contact me.
           </p>
           <div className="contact-form">
-            <form action="">
+            <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
@@ -59,7 +86,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-scale" />
     </>
   )
 }
