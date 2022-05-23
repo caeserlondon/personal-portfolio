@@ -10,6 +10,7 @@ import { FaRegEnvelope } from 'react-icons/fa'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { VscGithub } from 'react-icons/vsc'
 import { SiCodewars } from 'react-icons/si'
+import { BsEye } from 'react-icons/bs'
 
 const Sidebar = () => {
   return (
@@ -18,9 +19,12 @@ const Sidebar = () => {
         <img src={Wreath} alt="logo" />
       </Link>
       <nav>
+        {/* home */}
         <NavLink exact="true" activeclassname="active" to="/">
           <AiOutlineHome />
         </NavLink>
+
+        {/* about-me */}
         <NavLink
           exact="true"
           activeclassname="active"
@@ -29,6 +33,16 @@ const Sidebar = () => {
         >
           <FiUser />
         </NavLink>
+        {/* projects */}
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="projects-link"
+          to="/projects"
+        >
+          <BsEye />
+        </NavLink>
+        {/* contact  */}
         <NavLink
           exact="true"
           activeclassname="active"
