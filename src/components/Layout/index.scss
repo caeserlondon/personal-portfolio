@@ -111,3 +111,19 @@
     }
   }
 }
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+  .tags {
+    display: none;
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 768px) {
+  .tags {
+    display: none;
+  }
+}
