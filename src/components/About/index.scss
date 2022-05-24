@@ -132,3 +132,17 @@
     transform: rotateY(-90deg) rotateX(90deg) rotateZ(90deg);
   }
 }
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 767px) {
+  .stage-cube-cont,
+  .stage-cube-cont2 {
+    display: none;
+  }
+}
