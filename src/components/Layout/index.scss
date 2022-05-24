@@ -123,7 +123,18 @@
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 
 @media screen and (max-width: 768px) {
-  .tags {
-    display: none;
+  .container.contact-page,
+  .container.about-page {
+    .text-zone {
+      margin-top: -110px;
+      margin-left: 50px;
+      width: 75%;
+
+      span {
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 0;
+      }
+    }
   }
 }
