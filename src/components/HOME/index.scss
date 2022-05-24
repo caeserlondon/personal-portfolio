@@ -65,18 +65,21 @@
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
-    text-decoration: none;
-    padding: 10px 18px;
+    padding: 10px 16px;
     border: 1px solid #ffd700;
     margin-top: 25px;
     float: left;
     white-space: nowrap;
     cursor: pointer;
+    transition: all 1s ease-in-out;
 
     &:hover {
       background-color: #ffd700;
       color: #333;
     }
+  }
+  .CV {
+    margin-left: 16px;
   }
 
   .cube-zone {
