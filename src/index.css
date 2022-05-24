@@ -8,6 +8,8 @@
   text-decoration: none;
 }
 :root {
+  --primary-color: #ffd700;
+
   --yellow: #ffd700;
   --white: #fff;
   --gray: #808080;
@@ -37,9 +39,9 @@
 
   --darkShadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
 
-  --container-width-lg: 75%;
+  --container-width-lg: 70%;
   --container-width-md: 86%;
-  --container-width-sm: 90%;
+  --container-width-sm: 75%;
 }
 
 html {
@@ -51,11 +53,21 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
   background-color: var(--mainBlack);
-  /* overflow: hidden; */
+  overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+/* // 320px — 480px: Mobile devices
+// 481px — 768px: iPads, Tablets
+// 769px — 1024px: Small screens, laptops
+// 1025px — 1200px: Desktops, large screens
+// 1201px and more —  Extra large screens, TV */
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
@@ -64,5 +76,5 @@ body {
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 }
