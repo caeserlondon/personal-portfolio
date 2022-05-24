@@ -32,20 +32,22 @@ const About = () => {
           </h1>
           <p>
             I'm very abmitious Full-stack junior software developer and graphic
-            designer looking for a role in established IT company with the
-            oppertunity to work with the latest technologies on challenging and
-            diverse projects.
+            designer with a bachelor's degree in architectural engineering and
+            interior design.
           </p>
+          <br />
           <p>
             I am creative and detail-oriented in designing platforms that are
             functional and user-friendly, with a flair for bringing innovative
             UX design to life.
           </p>
+          <br />
           <p>
             I graduated from Makers Academy, an immersive 16 weeks full stack
             software development BootCamp where I strengthened my coding
             knowledge.
           </p>
+          <br />
           <p>
             I'm friendly, confident, naturally curious and prepetually working
             on improving my skills and learning new technologies.
