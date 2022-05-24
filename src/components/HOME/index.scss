@@ -68,7 +68,7 @@
     padding: 10px 16px;
     border: 1px solid #ffd700;
     margin-top: 25px;
-    float: left;
+    // float: left;
     white-space: nowrap;
     cursor: pointer;
     transition: all 1s ease-in-out;
@@ -82,7 +82,7 @@
     margin-left: 16px;
   }
 
-  .buttons {
+  .home-buttons {
     display: flex;
   }
 
@@ -244,7 +244,6 @@
 @media screen and (max-width: 1024px) {
   .home-buttons {
     flex-direction: column;
-
     align-items: center;
   }
 
