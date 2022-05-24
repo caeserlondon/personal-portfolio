@@ -82,6 +82,10 @@
     margin-left: 16px;
   }
 
+  .buttons {
+    display: flex;
+  }
+
   .cube-zone {
     position: absolute;
     left: 60%;
@@ -232,5 +236,45 @@
     .box-3 .wall-6 {
       transform: rotateY(180deg) translateZ(25px);
     }
+  }
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+  .home-buttons {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .box,
+  .tags {
+    display: none;
+  }
+  .home-page .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    h1 {
+      font-size: 22px;
+      font-weight: 200;
+    }
+
+    img {
+      width: 50px;
+      margin-left: -50px;
+      opacity: 0;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
   }
 }
