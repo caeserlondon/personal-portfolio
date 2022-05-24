@@ -7,7 +7,7 @@
   h1 {
     font-size: 40px;
     font-family: 'Coolvetica';
-    color: var(--yellow);
+    color: var(--primary-color);
     font-weight: 400;
     margin-bottom: 10px;
 
@@ -31,21 +31,20 @@
 }
 
 .flat-button {
-  color: #ffd700;
+  color: var(--primary-color);
   background: 0 0;
   font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 3px;
-  padding: 3px 8px;
-  border: 1px solid #ffd700;
-  border-radius: 12px;
-  float: right;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 2px 4px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
   cursor: pointer;
   margin-right: 10px;
   transition: all 1s ease-in-out;
 
   &:hover {
-    background-color: #ffd700;
+    background-color: var(--primary-color);
     color: #333;
   }
 }
@@ -59,34 +58,37 @@
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.7rem;
 }
 
 .portfolio-item {
   background-color: var(--offBlack);
-  padding: 1.3rem;
+  padding: 1rem;
+  padding-bottom: 0.7rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: all 1s ease-in-out;
   &:hover {
-    border-color: var(--yellow);
-    // background: transparent;
+    border-color: var(--primary-color);
     box-shadow: var(--darkShadow);
   }
   h3 {
-    margin: 1rem 1rem;
-    color: var(--yellow);
+    margin: 0.5rem 0.5rem;
+    color: var(--primary-color);
     span {
       color: var(--white);
       font-size: 1.1rem;
-      font-weight: 500;
+      font-weight: 400;
     }
   }
-  .buttons {
+  img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  .pro-buttons {
     display: flex;
     justify-content: space-around;
-    // margin-bottom: 1rem;
-    // background-color: aqua;
   }
 }
 
@@ -95,12 +97,32 @@
   overflow: hidden;
 }
 
-section {
-  margin-top: 50px;
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow: scroll;
+  }
+
+  .portfolio-container {
+    width: var(--container-width-md);
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 90px;
+    gap: 1.4rem;
+  }
 }
 
-img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 767px) {
+  body {
+    overflow: scroll;
+  }
+
+  .portfolio-container {
+    width: var(--container-width-sm);
+    grid-template-columns: 1fr;
+    // margin: auto;
+    margin-left: 80px;
+  }
 }
