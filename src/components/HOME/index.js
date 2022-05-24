@@ -66,12 +66,14 @@ const Home = () => {
             />
           </h1>
           <h2>Frontend / Backend / Graphic Design</h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
-          <a href={CV} download className="flat-button CV">
-            DOWNLOAD CV
-          </a>
+          <div className="home-buttons">
+            <Link to="/contact" className="flat-button">
+              CONTACT ME
+            </Link>
+            <a href={CV} download className="flat-button CV">
+              DOWNLOAD CV
+            </a>
+          </div>
         </div>
         <div className="cube-zone">
           <section className="box-container">
