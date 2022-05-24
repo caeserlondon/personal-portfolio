@@ -1,8 +1,8 @@
 .nav-bar {
   background: #181818;
   width: 70px;
-  height: 100%;
-  position: absolute;
+  height: 100vh;
+  position: fixed;
   top: 0;
   z-index: 3;
   min-height: 500px;
@@ -106,7 +106,7 @@
 
   ul {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     width: 100%;
     display: block;
     padding: 0;
@@ -127,4 +127,14 @@
       }
     }
   }
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 768px) {
 }
