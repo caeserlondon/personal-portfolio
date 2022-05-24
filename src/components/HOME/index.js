@@ -74,39 +74,39 @@ const Home = () => {
           </a>
         </div>
         <div className="cube-zone">
-          <section class="box-container">
-            <div class="box rotating box-1">
-              <div class="wall wall-1">
+          <section className="box-container">
+            <div className="box rotating box-1">
+              <div className="wall wall-1">
                 {' '}
-                <h2 class="text">CAESER AL-ANI</h2>
+                <h2 className="text">CAESER AL-ANI</h2>
               </div>
-              <div class="wall wall-2"></div>
-              <div class="wall wall-3">
-                <h2 class="text">GRAPHIC DESIGNER</h2>
+              <div className="wall wall-2"></div>
+              <div className="wall wall-3">
+                <h2 className="text">GRAPHIC DESIGNER</h2>
               </div>
-              <div class="wall wall-4">
-                <h2 class="text">WEB DEVELOPER</h2>
+              <div className="wall wall-4">
+                <h2 className="text">WEB DEVELOPER</h2>
               </div>
-              <div class="wall wall-5"></div>
-              <div class="wall wall-6">
-                <h2 class="text">CAESER AL-ANI</h2>
+              <div className="wall wall-5"></div>
+              <div className="wall wall-6">
+                <h2 className="text">CAESER AL-ANI</h2>
               </div>
 
-              <div class="box rotating box-2">
-                <div class="wall wall-1"></div>
-                <div class="wall wall-2"></div>
-                <div class="wall wall-3"></div>
-                <div class="wall wall-4"></div>
-                <div class="wall wall-5"></div>
-                <div class="wall wall-6"></div>
+              <div className="box rotating box-2">
+                <div className="wall wall-1"></div>
+                <div className="wall wall-2"></div>
+                <div className="wall wall-3"></div>
+                <div className="wall wall-4"></div>
+                <div className="wall wall-5"></div>
+                <div className="wall wall-6"></div>
 
-                <div class="box rotating box-3">
-                  <div class="wall wall-1"></div>
-                  <div class="wall wall-2"></div>
-                  <div class="wall wall-3"></div>
-                  <div class="wall wall-4"></div>
-                  <div class="wall wall-5"></div>
-                  <div class="wall wall-6"></div>
+                <div className="box rotating box-3">
+                  <div className="wall wall-1"></div>
+                  <div className="wall wall-2"></div>
+                  <div className="wall wall-3"></div>
+                  <div className="wall wall-4"></div>
+                  <div className="wall wall-5"></div>
+                  <div className="wall wall-6"></div>
                 </div>
               </div>
             </div>
