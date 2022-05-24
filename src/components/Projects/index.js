@@ -50,7 +50,7 @@ const Projects = () => {
             Project name
             <span> project description and the technologies used</span>
           </h3>
-          <div className="buttons">
+          <div className="pro-buttons">
             <a
               href="http://netlify.com"
               target="_blank"
@@ -77,7 +77,7 @@ const Projects = () => {
             Project name
             <span> project description and the technologies used</span>
           </h3>
-          <div className="buttons">
+          <div className="pro-buttons">
             <a
               href="http://netlify.com"
               target="_blank"
@@ -104,7 +104,7 @@ const Projects = () => {
             Project name
             <span> project description and the technologies used</span>
           </h3>
-          <div className="buttons">
+          <div className="pro-buttons">
             <a
               href="http://netlify.com"
               target="_blank"
@@ -131,7 +131,7 @@ const Projects = () => {
             Project name
             <span> project description and the technologies used</span>
           </h3>
-          <div className="buttons">
+          <div className="pro-buttons">
             <a
               href="http://netlify.com"
               target="_blank"
@@ -158,7 +158,7 @@ const Projects = () => {
             Project name
             <span> project description and the technologies used</span>
           </h3>
-          <div className="buttons">
+          <div className="pro-buttons">
             <a
               href="http://netlify.com"
               target="_blank"
@@ -185,7 +185,7 @@ const Projects = () => {
             Project name
             <span> project description and the technologies used</span>
           </h3>
-          <div className="buttons">
+          <div className="pro-buttons">
             <a
               href="http://netlify.com"
               target="_blank"
@@ -212,7 +212,7 @@ const Projects = () => {
             Project name
             <span> project description and the technologies used</span>
           </h3>
-          <div className="buttons">
+          <div className="pro-buttons">
             <a
               href="http://netlify.com"
               target="_blank"
@@ -239,7 +239,7 @@ const Projects = () => {
             Project name
             <span> project description and the technologies used</span>
           </h3>
-          <div className="buttons">
+          <div className="pro-buttons">
             <a
               href="http://netlify.com"
               target="_blank"
@@ -266,7 +266,7 @@ const Projects = () => {
             Project name
             <span> project description and the technologies used</span>
           </h3>
-          <div className="buttons">
+          <div className="pro-buttons">
             <a
               href="http://netlify.com"
               target="_blank"
