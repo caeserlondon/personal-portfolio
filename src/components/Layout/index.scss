@@ -83,12 +83,12 @@
       }
     }
     p {
-      font-size: 14px;
+      font-size: 17px;
       color: #fff;
-      font-family: sans-serif;
+      // font-family: sans-serif;
       font-weight: 300;
       min-width: fit-content;
-      animation: pulse 1.5s;
+      animation: pulse 2s;
 
       &:nth-of-type(1) {
         animation-delay: 1.5s;
