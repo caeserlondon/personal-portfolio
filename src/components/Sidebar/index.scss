@@ -42,7 +42,6 @@
       line-height: 51px;
       height: 51px;
       position: relative;
-      text-decoration: none;
 
       i {
         transition: all 0.3s ease-out;
@@ -55,12 +54,12 @@
           opacity: 0;
         }
 
-        &:after {
+        &::after {
           opacity: 1;
         }
       }
 
-      &:after {
+      &::after {
         content: '';
         font-size: 9px;
         letter-spacing: 2px;
@@ -81,19 +80,19 @@
     }
 
     a.about-link {
-      &:after {
+      &::after {
         content: 'ABOUT';
       }
     }
 
     a.projects-link {
-      &:after {
+      &::after {
         content: 'PROJECTS';
       }
     }
 
     a.contact-link {
-      &:after {
+      &::after {
         content: 'CONTACT';
       }
     }
@@ -111,7 +110,7 @@
     width: 100%;
     display: block;
     padding: 0;
-    list-style: none;
+
     text-align: center;
     margin: 0;
 
