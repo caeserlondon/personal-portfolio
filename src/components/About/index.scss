@@ -237,6 +237,13 @@
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
+  .container.about-page {
+    .text-zone {
+      // margin-top: 20px;
+      // left: 10%;
+      top: 20%;
+    }
+  }
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
