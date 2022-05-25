@@ -9,37 +9,9 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = [
-    'a',
-    'e',
-    's',
-    'e',
-    'r',
-    ' ',
-    ' ',
-    'A',
-    'l',
-    '-',
-    'A',
-    'n',
-    'i',
-  ]
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+  const nameArray = 'aeser Al-Ani'.split('')
+
+  const jobArray = 'Web developer.'.split('')
 
   useEffect(() => {
     setTimeout(() => {
