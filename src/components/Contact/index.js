@@ -109,6 +109,7 @@ const Contact = () => {
             </h5>
             <BsWhatsapp />
             <a
+              target="_blanck"
               className="flat-button"
               href="https://api.whatsapp.com/send?phone=4407868863113"
             >
@@ -124,6 +125,7 @@ const Contact = () => {
             </h5>
             <BsWhatsapp />
             <a
+              target="_blanck"
               className="flat-button"
               href="https://api.whatsapp.com/send?phone=4407562677052"
             >
