@@ -1,11 +1,12 @@
 .home-page {
   .text-zone {
+    margin: 300px 10px 10px 170px;
     position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    // left: 10%;
+    // top: 50%;
+    // transform: translateY(-50%);
+    // width: 40%;
+    // max-height: 90%;
 
     h1 {
       color: var(--primary-color);
@@ -253,8 +254,9 @@
   }
   .home-page .text-zone {
     position: absolute;
-    left: 10%;
-    top: 30%;
+    // left: 10%;
+    // top: 30%;
+    margin: 170px 10px 10px 90px;
     h1 {
       font-size: 22px;
       font-weight: 200;
