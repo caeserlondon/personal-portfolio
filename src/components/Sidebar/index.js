@@ -2,12 +2,9 @@ import React from 'react'
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import Wreath from '../../assets/images/wreath.png'
-
-import { AiOutlineHome } from 'react-icons/ai'
+import { AiOutlineHome, AiOutlineLinkedin } from 'react-icons/ai'
 import { FiUser } from 'react-icons/fi'
 import { FaRegEnvelope } from 'react-icons/fa'
-
-import { AiOutlineLinkedin } from 'react-icons/ai'
 import { VscGithub } from 'react-icons/vsc'
 import { SiCodewars } from 'react-icons/si'
 import { BsEye } from 'react-icons/bs'
