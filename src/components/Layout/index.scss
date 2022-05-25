@@ -37,70 +37,21 @@
   animation-delay: 1s;
 }
 
-.container.contact-page {
-  .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 35%;
-    max-height: 90%;
-    vertical-align: middle;
-    display: table-cell;
-
-    h1 {
-      font-size: 53px;
-      font-family: 'Coolvetica';
-      color: #ffd700;
-      font-weight: 400;
-      margin-top: 0;
-      position: relative;
-      margin-bottom: 40px;
-      left: 10px;
-
-      &::before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore';
-        font-size: 18px;
-        position: absolute;
-        margin-top: -10px;
-        left: -10px;
-        opacity: 0.6;
-        line-height: 18px;
-      }
-
-      &::after {
-        content: '</h1>';
-        font-family: 'La Belle Aurore';
-        font-size: 18px;
-        line-height: 18px;
-        position: absolute;
-        margin-left: 20px;
-        opacity: 0.6;
-        left: -30px;
-        bottom: -20px;
-      }
-    }
-    p {
-      font-size: 17px;
-      color: #fff;
-      font-weight: 300;
-      min-width: fit-content;
-    }
-  }
-
-  .text-animate-hover {
-    &:hover {
-      color: #fff;
-    }
-  }
-}
-
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
+  // .container {
+  //   width: 80%;
+  //   will-change: contents;
+  //   height: 70%;
+  //   // min-height: 566px;
+  //   // position: absolute;
+  //   opacity: 0;
+  //   top: 10%;
+  //   margin: 0 auto;
+  // }
   .tags {
-    display: none;
+    // display: none;
   }
 }
 
