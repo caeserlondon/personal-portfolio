@@ -1,8 +1,90 @@
+.container.about-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+
+    h1 {
+      font-size: 53px;
+      font-family: 'Coolvetica';
+      color: #ffd700;
+      font-weight: 400;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 40px;
+      left: 10px;
+
+      &::before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore';
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        left: -10px;
+        opacity: 0.6;
+        line-height: 18px;
+      }
+
+      &::after {
+        content: '</h1>';
+        font-family: 'La Belle Aurore';
+        font-size: 18px;
+        line-height: 18px;
+        position: absolute;
+        margin-left: 20px;
+        opacity: 0.6;
+        left: -30px;
+        bottom: -20px;
+      }
+    }
+    p {
+      font-size: 17px;
+      color: #fff;
+      font-weight: 300;
+      min-width: fit-content;
+      // animation: pulse 2s;
+      animation: rubberBand 2s;
+
+      // &:nth-of-type(1) {
+      //   animation-delay: 1.5s;
+      // }
+      // &:nth-of-type(2) {
+      //   animation-delay: 2s;
+      // }
+      // &:nth-of-type(3) {
+      //   animation-delay: 2.5s;
+      // }
+      // &:nth-of-type(4) {
+      //   animation-delay: 3s;
+      // }
+      &:nth-of-type(1) {
+        animation-delay: 0.5s;
+      }
+      &:nth-of-type(2) {
+        animation-delay: 1s;
+      }
+      &:nth-of-type(3) {
+        animation-delay: 1.5s;
+      }
+      &:nth-of-type(4) {
+        animation-delay: 2s;
+      }
+    }
+  }
+
+  .text-animate-hover {
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
 .stage-cube-cont {
   width: 50%;
   height: 50%;
   top: 0;
-  padding-top: 18%;
+  padding-top: 10%;
   margin-left: 0;
   position: absolute;
   right: 0;
@@ -21,13 +103,13 @@
     position: absolute;
     width: 150px;
     height: 150px;
-    border: 0.5px solid #ccc;
-    background: rgba(255, 255, 255, 0.25);
+    border: 0.5px solid var(--primary-color);
+    background: var(--primary-transperent);
     font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 20px 0px lightyellow;
+    box-shadow: 0 0 18px 0px lightyellow;
   }
 
   .face1 {
@@ -62,7 +144,7 @@
   width: 50%;
   height: 50%;
   top: 40%;
-  padding-top: 18%;
+  padding-top: 12%;
   margin-left: 0;
   position: absolute;
   right: 0;
@@ -80,18 +162,17 @@
     position: absolute;
     width: 150px;
     height: 150px;
-    border: 0.5px solid #ccc;
-    background: rgba(255, 255, 255, 0.25);
+    border: 0.5px solid var(--primary-color);
+    background: var(--primary-transperent);
     font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 20px 0px lightyellow;
+    box-shadow: 0 0 18px 0px lightyellow;
   }
 
   .face1 {
     color: #563d7c;
-    // transform: translateZ(100px);
     transform: rotateY(-180deg) rotateX(-180deg) translateZ(75px);
   }
   .face2 {
@@ -112,7 +193,6 @@
   }
   .face6 {
     color: #c65e92;
-    // transform: rotateY(-90deg) translateZ(100px);
     transform: rotateY(-90deg) rotateX(-90deg) translateZ(75px);
   }
 }
@@ -133,6 +213,37 @@
   }
 }
 
+/* ========== TECHNOLOGIES ========== */
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 20px 0;
+  animation: animate__backInLeft 4s forwards;
+  .tech-item {
+    .tech-image {
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    transform: scale(0);
+    opacity: 0;
+    animation: popUp 4s 1s forwards;
+    // animation: popUp 8s forwards;
+
+    @keyframes popUp {
+      from {
+        transform: scale(0);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+}
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
