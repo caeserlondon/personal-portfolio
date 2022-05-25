@@ -57,11 +57,12 @@ const Sidebar = () => {
           <a
             target="_blanck"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/caeser-ibrahim-3bb4a322a/"
+            href="https://www.codewars.com/users/Caeser%20Ibrahim"
           >
-            <AiOutlineLinkedin />
+            <SiCodewars />
           </a>
         </li>
+
         <li>
           <a
             target="_blanck"
@@ -70,14 +71,14 @@ const Sidebar = () => {
           >
             <VscGithub />
           </a>
-        </li>{' '}
+        </li>
         <li>
           <a
             target="_blanck"
             rel="noreferrer"
-            href="https://www.codewars.com/users/Caeser%20Ibrahim"
+            href="https://www.linkedin.com/in/caeser-ibrahim-3bb4a322a/"
           >
-            <SiCodewars />
+            <AiOutlineLinkedin />
           </a>
         </li>
       </ul>
