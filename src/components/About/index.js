@@ -9,6 +9,7 @@ import { DiRuby } from 'react-icons/di'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Loader from 'react-loaders'
+import Technologies from '../../Technologies'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -26,7 +27,7 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={'About me'.split('')}
               index={15}
             />
           </h1>
@@ -52,6 +53,23 @@ const About = () => {
             I'm friendly, confident, naturally curious and prepetually working
             on improving my skills and learning new technologies.
           </p>
+          <section>
+            <div className=" tech-container">
+              {Technologies.map(({ id, image, title }) => {
+                return (
+                  <article
+                    key={id}
+                    className="tech-item"
+                    style={{ animationDelay: id * 0.15 + 's' }}
+                  >
+                    <div className="tech-image">
+                      <img src={image} alt={title} />
+                    </div>
+                  </article>
+                )
+              })}
+            </div>
+          </section>
         </div>
 
         <div className="stage-cube-cont">
