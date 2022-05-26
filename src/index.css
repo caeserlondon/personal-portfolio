@@ -9,35 +9,24 @@
 }
 :root {
   --primary-color: #ffd700;
-
-  --yellow: #ffd700;
+  --primary-transperent: #ffd9000c;
   --white: #fff;
   --gray: #808080;
-  --blue: #022c43;
-
-  /* --mainBlack: #555555; */
-  --mainBlack: rgba(77, 77, 77);
-
+  --off-gray: #555555;
+  --dark-gray: #333;
+  --mainBlack: #4d4d4d;
   --offBlack: #767676;
-
-  --mainWhite: #fff;
-
   --mainGrey: #ececec;
-
   --darkGrey: #cfcfcf;
-
-  --background-color: #fff;
-  --background-light: #fff;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --shadow-dark: rgba(0, 0, 0, 0.5);
-
   --text-color: #0a0a0a;
   --text-light: #575757;
 
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   --lightShadow: 2px 4px 3px 0px rgba(0, 0, 0, 0.4);
 
-  --darkShadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
+  --darkShadow: 10px 10px 5px 3px rgba(0, 0, 0, 0.8);
 
   --container-width-lg: 70%;
   --container-width-md: 86%;
@@ -78,3 +67,4 @@ body {
 
 @media screen and (max-width: 768px) {
 }
+/* ---------/////////////////////////////////////////////////---------------  */
