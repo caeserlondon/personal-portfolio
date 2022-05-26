@@ -67,7 +67,7 @@
     letter-spacing: 4px;
     font-family: sans-serif;
     padding: 10px 16px;
-    border: 1px solid #ffd700;
+    border: 1px solid var(--primary-color);
     margin-top: 25px;
     // float: left;
     white-space: nowrap;
@@ -75,8 +75,8 @@
     transition: all 1s ease-in-out;
 
     &:hover {
-      background-color: #ffd700;
-      color: #333;
+      background-color: var(--primary-color);
+      color: var(--dark-gray);
     }
   }
   .CV {
@@ -120,7 +120,7 @@
     }
 
     .text {
-      color: var(--yellow);
+      color: var(--primary-color);
       bottom: 5px;
       font-family: Verdana, sans-serif;
       text-align: center;
@@ -230,7 +230,7 @@
     }
 
     .box-3 .wall {
-      background: var(--yellow);
+      background: var(--primary-color);
       box-shadow: 0 0 88px 7px rgb(255, 255, 255);
     }
 
