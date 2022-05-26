@@ -6,6 +6,8 @@ import AnimatedLetters from '../AnimatedLetters'
 import CV from '../../assets/cv.pdf'
 import './index.scss'
 
+import IMG from '../../assets/images/wreath.png'
+
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -51,7 +53,6 @@ const Home = () => {
           <section className="box-container">
             <div className="box rotating box-1">
               <div className="wall wall-1">
-                {' '}
                 <h2 className="text">CAESER AL-ANI</h2>
               </div>
               <div className="wall wall-2"></div>
@@ -67,12 +68,32 @@ const Home = () => {
               </div>
 
               <div className="box rotating box-2">
+                <div className="wall wall-1">
+                  <img src={IMG} alt="IMG" />
+                </div>
+                <div className="wall wall-2">
+                  <img src={IMG} alt="IMG" />
+                </div>
+                <div className="wall wall-3">
+                  <img src={IMG} alt="IMG" />
+                </div>
+                <div className="wall wall-4">
+                  <img src={IMG} alt="IMG" />
+                </div>
+                <div className="wall wall-5">
+                  <img src={IMG} alt="IMG" />
+                </div>
+                <div className="wall wall-6">
+                  <img src={IMG} alt="IMG" />
+                </div>
+
+                {/* <div className="box rotating box-2">
                 <div className="wall wall-1"></div>
                 <div className="wall wall-2"></div>
                 <div className="wall wall-3"></div>
                 <div className="wall wall-4"></div>
                 <div className="wall wall-5"></div>
-                <div className="wall wall-6"></div>
+                <div className="wall wall-6"></div> */}
 
                 <div className="box rotating box-3">
                   <div className="wall wall-1"></div>
