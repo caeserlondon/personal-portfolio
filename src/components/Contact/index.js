@@ -102,7 +102,7 @@ const Contact = () => {
           </article>
 
           <article className="contact-card">
-            <h4>My Mobile</h4>
+            <h4>Mobile IOS</h4>
 
             <h5>
               <GiRotaryPhone /> 078 6886 3113
@@ -118,7 +118,7 @@ const Contact = () => {
           </article>
 
           <article className="contact-card">
-            <h4>My Mobile</h4>
+            <h4>Mobile Android</h4>
 
             <h5>
               <GiRotaryPhone /> 075 626 77052
