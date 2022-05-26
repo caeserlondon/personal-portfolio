@@ -10,7 +10,7 @@
 
     .text-animate-hover {
       &:hover {
-        color: #fff;
+        color: var(--white);
       }
     }
   }
@@ -31,7 +31,7 @@
 
   &:hover {
     background-color: var(--primary-color);
-    color: #333;
+    color: var(--dar-gray);
   }
 }
 
