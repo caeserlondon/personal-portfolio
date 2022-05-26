@@ -167,6 +167,16 @@
 
     /* Box 2 */
 
+    // .box-2 {
+    //   width: 54%;
+    //   height: 54%;
+    //   left: 50%;
+    //   top: 50%;
+    //   margin-left: -27%;
+    //   margin-top: -27%;
+    //   -webkit-animation-duration: 4s;
+    //   animation-duration: 4s;
+    // }
     .box-2 {
       width: 54%;
       height: 54%;
@@ -176,6 +186,11 @@
       margin-top: -27%;
       -webkit-animation-duration: 4s;
       animation-duration: 4s;
+      img {
+        height: 50%;
+        margin-top: 27%;
+        opacity: 0.4;
+      }
     }
 
     .box-2 .wall {
