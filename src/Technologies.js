@@ -26,6 +26,11 @@ import IMG25 from '../src/assets/tech/vue.png'
 import IMG26 from '../src/assets/tech/webpack.svg'
 import IMG27 from '../src/assets/tech/github.png'
 import IMG28 from '../src/assets/tech/rspec.png'
+import IMG29 from '../src/assets/tech/grafQL.png'
+import IMG30 from '../src/assets/tech/api.svg'
+import IMG31 from '../src/assets/tech/cloud-monitoring-cms.svg'
+
+// import IMG from '../src/assets/tech'
 // import IMG from '../src/assets/tech'
 
 const Technologies = [
@@ -168,6 +173,21 @@ const Technologies = [
     id: 28,
     title: 'Rspec',
     image: IMG28,
+  },
+  {
+    id: 29,
+    title: 'GrafQL',
+    image: IMG29,
+  },
+  {
+    id: 30,
+    title: 'API',
+    image: IMG30,
+  },
+  {
+    id: 31,
+    title: 'headlesCMS',
+    image: IMG31,
   },
 ]
 
