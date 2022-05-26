@@ -1,36 +1,16 @@
 .hero {
-  // width: 100vw;
-  // will-change: contents;
-  // height: 90%;
-  // min-height: 566px;
-  // position: absolute;
-  // opacity: 0;
-  // top: 5%;
-  // margin: 0 auto;
-  // z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
-  // animation-delay: 1s;
 }
 .contact-page {
   display: grid;
   grid-template-columns: 1fr 1fr;
   .text-zone {
-    // margin-left: 120px;
     margin: 140px 10px 10px 120px;
-    // position: absolute;
-    // left: 10%;
-    // top: 45%;
-    // transform: translateY(-50%);
-    // width: 35%;
-    // max-height: 90%;
-    // vertical-align: middle;
-    // display: table-cell;
-
     h1 {
       font-size: 53px;
       font-family: 'Coolvetica';
-      color: #ffd700;
+      color: var(--primary-color);
       font-weight: 400;
       margin-top: 0;
       position: relative;
@@ -76,38 +56,14 @@
   .contact-options {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    // gap: 10px;
-    // background-color: var(--primary-transperent);
-    // position: absolute;
-    // top: 50px;
-    // right: 15%;
-    // z-index: 10;
-    // width: 360px;
-    // padding: 20px;
-    // opacity: 0;
-    // animation: name duration timing-function delay iteration-count direction fill-mode;
-
-    // ----
-
-    // left: 10%;
-    // top: 45%;
-    // transform: translateY(-50%);
-    // width: 35%;
-    // max-height: 90%;
-    // vertical-align: middle;
-    // display: table-cell;
     margin: 140px 100px 10px 120px;
     .contact-card {
       margin: 20px;
       padding: 20px;
-      // background-color: #555555;
-      // animation: flip 2s;
       animation: backInDown 2s;
       animation-fill-mode: forwards;
       background-color: var(--offBlack);
       box-shadow: var(--darkShadow);
-      // padding: 1rem;
-      // padding-bottom: 0.7rem;
       border-radius: 2rem;
       border: 1px solid var(--primary-transperent);
       transition: all 1s ease-in-out;
@@ -123,10 +79,8 @@
       }
       h5 {
         color: var(--white);
-        // font-weight: 400;
         font-size: 16px;
         margin-bottom: 10px;
-        // margin-left: 20px;
       }
       svg {
         color: var(--primary-color);
@@ -143,7 +97,7 @@
 .contact-form {
   width: 100%;
   margin-top: 50px;
-  // color: #ffd700;
+  color: var(--primary-color);
 
   form {
     &::before {
@@ -222,19 +176,19 @@
     box-sizing: border-box;
   }
   .flat-button {
-    color: #ffd700;
+    color: var(--primary-color);
     background: 0 0;
     font-size: 15px;
     letter-spacing: 8px;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid var(--primary-color);
     border-radius: 12px;
     float: right;
     cursor: pointer;
     transition: all 1s ease-in-out;
 
     &:hover {
-      background-color: #ffd700;
+      background-color: var(--primary-color);
       color: #333;
     }
   }
