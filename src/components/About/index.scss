@@ -8,7 +8,7 @@
     h1 {
       font-size: 53px;
       font-family: 'Coolvetica';
-      color: #ffd700;
+      color: var(--primary-color);
       font-weight: 400;
       margin-top: 0;
       position: relative;
@@ -40,7 +40,7 @@
     }
     p {
       font-size: 17px;
-      color: #fff;
+      color: var(--white);
       font-weight: 300;
       min-width: fit-content;
       animation: rubberBand 2s;
@@ -61,7 +61,7 @@
 
   .text-animate-hover {
     &:hover {
-      color: #fff;
+      color: var(--white);
     }
   }
 }
