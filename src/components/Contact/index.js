@@ -7,6 +7,8 @@ import { MdAlternateEmail } from 'react-icons/md'
 import { BsWhatsapp } from 'react-icons/bs'
 import { GiRotaryPhone } from 'react-icons/gi'
 import { BiMailSend } from 'react-icons/bi'
+import Envelop from '../CVEnvelop'
+import CV from '../../assets/cv.pdf'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -132,6 +134,9 @@ const Contact = () => {
               WhatsApp call or text
             </a>
           </article>
+          <a href={CV} download>
+            <Envelop />
+          </a>
         </div>
       </div>
       <Loader type="ball-scale" />
