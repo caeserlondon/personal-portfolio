@@ -28,9 +28,8 @@ import IMG27 from '../src/assets/tech/github.png'
 import IMG28 from '../src/assets/tech/rspec.png'
 import IMG29 from '../src/assets/tech/grafQL.png'
 import IMG30 from '../src/assets/tech/api.svg'
-import IMG31 from '../src/assets/tech/cloud-monitoring-cms.svg'
+import IMG31 from '../src/assets/tech/nextJS.png'
 
-// import IMG from '../src/assets/tech'
 // import IMG from '../src/assets/tech'
 
 const Technologies = [
@@ -184,9 +183,10 @@ const Technologies = [
     title: 'API',
     image: IMG30,
   },
+
   {
     id: 31,
-    title: 'headlesCMS',
+    title: 'Next',
     image: IMG31,
   },
 ]
