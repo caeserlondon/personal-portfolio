@@ -87,14 +87,6 @@ const Home = () => {
                   <img src={IMG} alt="IMG" />
                 </div>
 
-                {/* <div className="box rotating box-2">
-                <div className="wall wall-1"></div>
-                <div className="wall wall-2"></div>
-                <div className="wall wall-3"></div>
-                <div className="wall wall-4"></div>
-                <div className="wall wall-5"></div>
-                <div className="wall wall-6"></div> */}
-
                 <div className="box rotating box-3">
                   <div className="wall wall-1"></div>
                   <div className="wall wall-2"></div>
