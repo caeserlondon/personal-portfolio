@@ -16,7 +16,7 @@ import IMG15 from '../src/assets/tech/mongodb.png'
 import IMG16 from '../src/assets/tech/mysql.png'
 import IMG17 from '../src/assets/tech/express.png'
 import IMG18 from '../src/assets/tech/postgresql.svg'
-import IMG19 from '../src/assets/tech/python.png'
+import IMG19 from '../src/assets/tech/nextJS.png'
 import IMG20 from '../src/assets/tech/r-angular.png'
 import IMG21 from '../src/assets/tech/rails.svg'
 import IMG22 from '../src/assets/tech/react.svg'
@@ -28,7 +28,8 @@ import IMG27 from '../src/assets/tech/github.png'
 import IMG28 from '../src/assets/tech/rspec.png'
 import IMG29 from '../src/assets/tech/grafQL.png'
 import IMG30 from '../src/assets/tech/api.svg'
-import IMG31 from '../src/assets/tech/nextJS.png'
+
+// import IMG19 from '../src/assets/tech/python.png'   *** I WILL ADD AFTER FINISH LEARNING ***
 
 // import IMG from '../src/assets/tech'
 
@@ -125,7 +126,7 @@ const Technologies = [
   },
   {
     id: 19,
-    title: 'Python',
+    title: 'Next',
     image: IMG19,
   },
   {
@@ -184,11 +185,12 @@ const Technologies = [
     image: IMG30,
   },
 
-  {
-    id: 31,
-    title: 'Next',
-    image: IMG31,
-  },
+  //  *** I WILL ADD AFTER FINISH LEARNING ***
+  // {
+  //   id: 31,
+  //   title: 'Python',
+  //   image: IMG19,
+  // },
 ]
 
 export default Technologies
