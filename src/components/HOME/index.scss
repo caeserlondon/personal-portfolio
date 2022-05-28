@@ -2,7 +2,7 @@
   .text-zone {
     margin: 300px 10px 10px 170px;
     position: absolute;
-    // left: 10%;
+    left: 7%;
     // top: 50%;
     // transform: translateY(-50%);
     // width: 40%;
@@ -28,14 +28,24 @@
         opacity: 0.6;
       }
 
+      // &::after {
+      //   content: '</h1>';
+      //   font-family: 'La Belle Aurore';
+      //   color: var(--primary-color);
+      //   font-size: 18px;
+      //   position: absolute;
+      //   margin-top: 18px;
+      //   margin-left: 20px;
+      //   opacity: 0.6;
+
       &::after {
         content: '</h1>';
         font-family: 'La Belle Aurore';
         color: var(--primary-color);
         font-size: 18px;
         position: absolute;
-        margin-top: 18px;
-        margin-left: 20px;
+        margin-top: 70px;
+        margin-left: -300px;
         opacity: 0.6;
       }
       // animation: name duration timing-function delay iteration-count direction fill-mode;
@@ -52,11 +62,11 @@
 
   h2 {
     color: var(--white);
-    margin-top: 20px;
+    margin-top: 40px;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
+    animation: fadeIn 1s 3.8s backwards;
   }
 
   .flat-button {
