@@ -134,7 +134,7 @@ const Contact = () => {
               WhatsApp call or text
             </a>
           </article>
-          <a href={CV} download>
+          <a href={CV} download className="cv-envelop">
             <Envelop />
           </a>
         </div>
