@@ -28,9 +28,9 @@ import IMG27 from '../src/assets/tech/github.png'
 import IMG28 from '../src/assets/tech/rspec.png'
 import IMG29 from '../src/assets/tech/grafQL.png'
 import IMG30 from '../src/assets/tech/api.svg'
+import IMG31 from '../src/assets/tech/postman.svg'
 
 // import IMG19 from '../src/assets/tech/python.png'   *** I WILL ADD AFTER FINISH LEARNING ***
-
 // import IMG from '../src/assets/tech'
 
 const Technologies = [
@@ -183,6 +183,11 @@ const Technologies = [
     id: 30,
     title: 'API',
     image: IMG30,
+  },
+  {
+    id: 31,
+    title: 'API',
+    image: IMG31,
   },
 
   //  *** I WILL ADD AFTER FINISH LEARNING ***
