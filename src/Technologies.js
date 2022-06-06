@@ -5,7 +5,7 @@ import IMG4 from '../src/assets/tech/adobe-xd.svg'
 import IMG5 from '../src/assets/tech/adobi-id.png'
 import IMG6 from '../src/assets/tech/bootstrap.svg'
 import IMG7 from '../src/assets/tech/c-sass.png'
-import IMG8 from '../src/assets/tech/command.png'
+import IMG8 from '../src/assets/tech/react.svg'
 import IMG9 from '../src/assets/tech/git.svg'
 import IMG10 from '../src/assets/tech/node.png'
 import IMG11 from '../src/assets/tech/css3.svg'
@@ -17,9 +17,9 @@ import IMG16 from '../src/assets/tech/mysql.png'
 import IMG17 from '../src/assets/tech/express.png'
 import IMG18 from '../src/assets/tech/postgresql.svg'
 import IMG19 from '../src/assets/tech/nextJS.png'
-import IMG20 from '../src/assets/tech/r-angular.png'
+
 import IMG21 from '../src/assets/tech/rails.svg'
-import IMG22 from '../src/assets/tech/react.svg'
+import IMG22 from '../src/assets/tech/command.png'
 import IMG23 from '../src/assets/tech/ruby.svg'
 import IMG24 from '../src/assets/tech/vscode.png'
 import IMG25 from '../src/assets/tech/vue.png'
@@ -71,9 +71,10 @@ const Technologies = [
   },
   {
     id: 8,
-    title: 'CommandLine',
+    title: 'React',
     image: IMG8,
   },
+
   {
     id: 9,
     title: 'CSS3',
@@ -129,19 +130,16 @@ const Technologies = [
     title: 'Next',
     image: IMG19,
   },
-  {
-    id: 20,
-    title: 'Angular',
-    image: IMG20,
-  },
+
   {
     id: 21,
     title: 'Rails',
     image: IMG21,
   },
+
   {
     id: 22,
-    title: 'React',
+    title: 'CommandLine',
     image: IMG22,
   },
   {
