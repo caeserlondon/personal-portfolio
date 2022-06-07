@@ -45,6 +45,9 @@
       color: #fff;
       font-weight: 300;
       min-width: fit-content;
+      animation: slideInLeft 2s;
+      animation-fill-mode: forwards;
+      transition: all 1s ease-in-out;
     }
   }
 
