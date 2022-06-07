@@ -32,9 +32,9 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very abmitious Full-stack junior software developer and graphic
-            designer with a bachelor's degree in architectural engineering and
-            interior design.
+            I'm a very ambitious Full-stack junior software developer and
+            graphic designer with a bachelor's degree in architectural
+            engineering and interior design.
           </p>
           <br />
           <p>
@@ -44,13 +44,13 @@ const About = () => {
           </p>
           <br />
           <p>
-            I graduated from Makers Academy, an immersive 16 weeks full stack
-            software development BootCamp where I strengthened my coding
+            I graduated from Makers Academy, an immersive 16-weeks full-stack
+            software development Boot Camp where I strengthened my coding
             knowledge.
           </p>
           <br />
           <p>
-            I'm friendly, confident, naturally curious and prepetually working
+            I'm friendly, confident, naturally curious and perpetually working
             on improving my skills and learning new technologies.
           </p>
           <section>
