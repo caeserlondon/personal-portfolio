@@ -8,6 +8,7 @@ import { FaRegEnvelope } from 'react-icons/fa'
 import { VscGithub } from 'react-icons/vsc'
 import { SiCodewars } from 'react-icons/si'
 import { BsEye } from 'react-icons/bs'
+import { CgNotes } from 'react-icons/cg'
 
 const Sidebar = () => {
   return (
@@ -76,6 +77,11 @@ const Sidebar = () => {
             href="https://www.linkedin.com/in/caeser-ibrahim-3bb4a322a/"
           >
             <AiOutlineLinkedin />
+          </a>
+        </li>
+        <li>
+          <a target="_blanck" rel="noreferrer" href="https://www.my-cv.com">
+            <CgNotes />
           </a>
         </li>
       </ul>
