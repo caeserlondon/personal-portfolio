@@ -21,14 +21,15 @@ import IMG19 from '../src/assets/tech/nextJS.png'
 import IMG21 from '../src/assets/tech/rails.svg'
 import IMG22 from '../src/assets/tech/command.png'
 import IMG23 from '../src/assets/tech/ruby.svg'
-import IMG24 from '../src/assets/tech/vscode.png'
-import IMG25 from '../src/assets/tech/vue.png'
+import IMG24 from '../src/assets/tech/vscode.svg'
+
 import IMG26 from '../src/assets/tech/webpack.svg'
 import IMG27 from '../src/assets/tech/github.png'
 import IMG28 from '../src/assets/tech/rspec.png'
 import IMG29 from '../src/assets/tech/grafQL.png'
-import IMG30 from '../src/assets/tech/api.svg'
-import IMG31 from '../src/assets/tech/postman.svg'
+import IMG30 from '../src/assets/tech/firebase.png'
+import IMG31 from '../src/assets/tech/api.svg'
+import IMG32 from '../src/assets/tech/postman.svg'
 
 // import IMG19 from '../src/assets/tech/python.png'   *** I WILL ADD AFTER FINISH LEARNING ***
 // import IMG from '../src/assets/tech'
@@ -153,11 +154,6 @@ const Technologies = [
     image: IMG24,
   },
   {
-    id: 25,
-    title: 'Vue',
-    image: IMG25,
-  },
-  {
     id: 26,
     title: 'WebPack',
     image: IMG26,
@@ -179,13 +175,18 @@ const Technologies = [
   },
   {
     id: 30,
-    title: 'API',
+    title: 'FireBase',
     image: IMG30,
   },
   {
     id: 31,
     title: 'API',
     image: IMG31,
+  },
+  {
+    id: 32,
+    title: 'API',
+    image: IMG32,
   },
 
   //  *** I WILL ADD AFTER FINISH LEARNING ***
