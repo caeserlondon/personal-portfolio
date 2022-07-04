@@ -1,0 +1,42 @@
+.error-Page {
+  margin-top: 12.5em;
+  margin-left: 12em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 64.1vh;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    color: var(--white);
+    font-size: 17.5em;
+    letter-spacing: 0.1em;
+    margin: 0.025em 0;
+    text-shadow: 0.05em 0.05em 0 rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
+
+    & > span {
+      animation: terror 2s alternate infinite linear;
+      color: var(--primary-color);
+      display: inline-block;
+    }
+  }
+
+  p {
+    color: var(--primary-color);
+    margin-top: 1em;
+    font-size: 3em;
+    text-shadow: 3px 3px 6px var(--white);
+  }
+}
+
+@keyframes terror {
+  from {
+    transform: translatey(0.15em) scaley(0.95);
+  }
+
+  to {
+    transform: translatey(-0.15em);
+  }
+}
