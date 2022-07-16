@@ -38,9 +38,9 @@ const About = () => {
           </p>
           <br />
           <p>
-            I am creative and detail-oriented in designing platforms that are
-            functional and user-friendly, with a flair for bringing innovative
-            UX design to life.
+            I am creative and detail-oriented in creating and designing
+            platforms that are functional and user-friendly, with a flair for
+            bringing innovative UX design to life.
           </p>
           <br />
           <p>
