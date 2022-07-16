@@ -11,7 +11,9 @@ import IMG from '../../assets/images/wreath.png'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = 'aeser Ibrahim'.split('')
+  // const nameArray = 'aeser Ibrahim'.split('')
+  const nameArray = 'aeser'.split('')
+  const sureArray = ' Ibrahim'.split('')
 
   const jobArray = 'Web developer.'.split('')
 
@@ -30,6 +32,11 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
+              index={9}
+            />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={sureArray}
               index={9}
             />
             <br />
