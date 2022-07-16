@@ -11,7 +11,7 @@ import IMG from '../../assets/images/wreath.png'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = 'aeser Al-Ani'.split('')
+  const nameArray = 'aeser Ibrahim'.split('')
 
   const jobArray = 'Web developer.'.split('')
 
@@ -53,7 +53,7 @@ const Home = () => {
           <section className="box-container">
             <div className="box rotating box-1">
               <div className="wall wall-1">
-                <h2 className="text">CAESER AL-ANI</h2>
+                <h2 className="text">CAESER IBRAHIM</h2>
               </div>
               <div className="wall wall-2"></div>
               <div className="wall wall-3">
@@ -64,7 +64,7 @@ const Home = () => {
               </div>
               <div className="wall wall-5"></div>
               <div className="wall wall-6">
-                <h2 className="text">CAESER AL-ANI</h2>
+                <h2 className="text">CAESER IBRAHIM</h2>
               </div>
 
               <div className="box rotating box-2">
