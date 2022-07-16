@@ -23,7 +23,12 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault()
-    // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm(
+      'YOUR_SERVICE_ID',
+      'YOUR_TEMPLATE_ID',
+      form.current,
+      'YOUR_PUBLIC_KEY'
+    )
     emailjs
       .sendForm(
         process.env.REACT_APP_MY_SERVICE_ID,
@@ -56,7 +61,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I'm open to full time job offers or freelance opertunities. if you
+            I'm open to full time job offers or open source projects. if you
             have any question or request, Please don't hasitate to contact me.
           </p>
           <div className="contact-form">
