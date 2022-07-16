@@ -216,10 +216,11 @@
     }
 
     // animation: name duration timing-function delay iteration-count direction fill-mode;
-    -moz-transform: scale(0);
-    -webkit-transform: scale(0);
-    transform: scale(0);
 
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
     -web-transform: opacity(0);
     -moz-transform: opacity(0);
     opacity: 0;
@@ -227,6 +228,7 @@
     // animation: popUp 4s 1s forwards;
     -webkit-animation: popUp 6s forwards;
     -moz-animation: popUp 6s forwards;
+    -o-animation: popUp 6s forwards;
 
     animation: popUp 6s forwards;
 
