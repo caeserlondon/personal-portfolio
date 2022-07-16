@@ -266,9 +266,16 @@
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .stage-cube-cont,
   .stage-cube-cont2 {
     display: none;
+  }
+  .container.about-page {
+    .text-zone {
+      p {
+        font-size: 18px;
+      }
+    }
   }
 }
