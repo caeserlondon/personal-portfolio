@@ -7,6 +7,7 @@
   list-style: none;
   text-decoration: none;
 }
+
 :root {
   --primary-color: #ffd700;
   --primary-transperent: #ffd9000c;
@@ -42,21 +43,33 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
   background-color: var(--mainBlack);
-  overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
 }
 
-/* ::-webkit-scrollbar {
-  display: none;
-} */
+*::-webkit-scrollbar {
+  width: 9px;
+  height: 1px;
+}
 
-/* // 320px — 480px: Mobile devices
-// 481px — 768px: iPads, Tablets
-// 769px — 1024px: Small screens, laptops
-// 1025px — 1200px: Desktops, large screens
-// 1201px and more —  Extra large screens, TV */
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 9px;
+  opacity: 0.1;
+}
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
@@ -67,4 +80,3 @@ body {
 
 @media screen and (max-width: 768px) {
 }
-/* ---------/////////////////////////////////////////////////---------------  */
