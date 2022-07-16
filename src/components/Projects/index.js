@@ -44,7 +44,7 @@ const Projects = () => {
                   rel="noreferrer"
                   className="flat-button"
                 >
-                  Live Demo
+                  Web Site
                 </a>
                 <a
                   href={github}
