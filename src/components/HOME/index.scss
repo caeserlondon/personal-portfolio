@@ -11,6 +11,7 @@
     h1 {
       color: var(--primary-color);
       font-size: 50px;
+      letter-spacing: 7px;
       margin: 0;
       font-family: 'Coolvetica';
       font-weight: 400;
@@ -24,6 +25,7 @@
         font-size: 18px;
         position: absolute;
         margin-top: -40px;
+        letter-spacing: 2px;
         left: 15px;
         opacity: 0.6;
       }
@@ -43,9 +45,10 @@
         font-family: 'La Belle Aurore';
         color: var(--primary-color);
         font-size: 18px;
+        letter-spacing: 2px;
         position: absolute;
         margin-top: 70px;
-        margin-left: -300px;
+        margin-left: -380px;
         opacity: 0.6;
       }
       // animation: name duration timing-function delay iteration-count direction fill-mode;
@@ -292,7 +295,7 @@
     }
 
     img {
-      width: 50px;
+      // width: 50px;/
       margin-left: -50px;
       opacity: 0;
       animation: rotateIn 1s linear both;
@@ -306,5 +309,18 @@
 @media screen and (max-width: 768px) {
   body {
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home-page {
+    .text-zone {
+      h1 {
+        font-size: 15px;
+        img {
+          width: 50px;
+        }
+      }
+    }
   }
 }
