@@ -3,10 +3,6 @@
     margin: 300px 10px 10px 170px;
     position: absolute;
     left: 7%;
-    // top: 50%;
-    // transform: translateY(-50%);
-    // width: 40%;
-    // max-height: 90%;
 
     h1 {
       color: var(--primary-color);
@@ -29,16 +25,6 @@
         left: 15px;
         opacity: 0.6;
       }
-
-      // &::after {
-      //   content: '</h1>';
-      //   font-family: 'La Belle Aurore';
-      //   color: var(--primary-color);
-      //   font-size: 18px;
-      //   position: absolute;
-      //   margin-top: 18px;
-      //   margin-left: 20px;
-      //   opacity: 0.6;
 
       &::after {
         content: '</h1>';
@@ -82,7 +68,6 @@
     padding: 10px 16px;
     border: 1px solid var(--primary-color);
     margin-top: 25px;
-    // float: left;
     white-space: nowrap;
     cursor: pointer;
     transition: all 1s ease-in-out;
@@ -98,6 +83,7 @@
 
   .home-buttons {
     display: flex;
+    z-index: 10;
   }
 
   .cube-zone {
@@ -178,18 +164,6 @@
       transform: rotateY(180deg) translateZ(150px);
     }
 
-    /* Box 2 */
-
-    // .box-2 {
-    //   width: 54%;
-    //   height: 54%;
-    //   left: 50%;
-    //   top: 50%;
-    //   margin-left: -27%;
-    //   margin-top: -27%;
-    //   -webkit-animation-duration: 4s;
-    //   animation-duration: 4s;
-    // }
     .box-2 {
       width: 54%;
       height: 54%;
@@ -283,11 +257,10 @@
   .box,
   .tags {
     display: none;
+    z-index: -99;
   }
   .home-page .text-zone {
     position: absolute;
-    // left: 10%;
-    // top: 30%;
     margin: 170px 10px 10px 90px;
     h1 {
       font-size: 22px;
@@ -295,7 +268,6 @@
     }
 
     img {
-      // width: 50px;/
       margin-left: -50px;
       opacity: 0;
       animation: rotateIn 1s linear both;
@@ -320,6 +292,11 @@
         img {
           width: 50px;
         }
+      }
+    }
+    .cube-zone {
+      .box-container {
+        display: none;
       }
     }
   }

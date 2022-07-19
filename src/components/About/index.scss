@@ -2,7 +2,7 @@
   .text-zone {
     position: absolute;
     left: 10%;
-    top: 5%;
+    top: 1%;
     width: 35%;
 
     h1 {
@@ -204,8 +204,6 @@
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   padding: 40px 0;
-  // animation: animate__backInLeft 4s forwards;
-  // animation: backInLeft 4s forwards;
 
   .tech-item {
     .tech-image {
@@ -224,8 +222,6 @@
     -web-transform: opacity(0);
     -moz-transform: opacity(0);
     opacity: 0;
-
-    // animation: popUp 4s 1s forwards;
     -webkit-animation: popUp 6s forwards;
     -moz-animation: popUp 6s forwards;
     -o-animation: popUp 6s forwards;
@@ -257,8 +253,6 @@
 @media screen and (max-width: 1024px) {
   .container.about-page {
     .text-zone {
-      // margin-top: 20px;
-      // left: 10%;
       top: 20%;
     }
   }
