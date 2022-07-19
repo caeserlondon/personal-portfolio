@@ -1,7 +1,6 @@
 import React from 'react'
 import './index.scss'
-import { Link, NavLink } from 'react-router-dom'
-import Wreath from '../../assets/images/wreath.png'
+import { NavLink } from 'react-router-dom'
 import { AiOutlineHome, AiOutlineLinkedin } from 'react-icons/ai'
 import { FiUser } from 'react-icons/fi'
 import { FaRegEnvelope } from 'react-icons/fa'
@@ -13,9 +12,6 @@ import { CgNotes } from 'react-icons/cg'
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
-        <img src={Wreath} alt="logo" />
-      </Link>
       <nav>
         {/* home */}
         <NavLink exact="true" activeclassname="active" to="/">
