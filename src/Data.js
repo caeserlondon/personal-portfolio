@@ -12,7 +12,7 @@ const Data = [
     image: IMG1,
     title: 'Yum Yum: ',
     description:
-      'Recipe Website using Spoonacular API, With Multiple Themes, Made using React 18, React Icons and SASS.',
+      'Recipe Website using Spoonacular API, Multiple Themes, Made using React 18, React Icons and SASS.',
     github: 'https://github.com/caeserlondon/Yum-Yum',
     demo: 'https://yum-yum-caeserlondon.vercel.app',
   },
@@ -21,7 +21,7 @@ const Data = [
     image: IMG2,
     title: 'London Home Finder: ',
     description:
-      'For listings properties for rent and sale. using React, firebase, googleAuth, and leaflet-maps.',
+      'For listings properties for rent and sale. using React, firebase, google Auth, and leaflet-maps.',
     github: 'https://github.com/caeserlondon/london-home-finder',
     demo: 'https://london-home-finder.web.app/',
   },
@@ -30,7 +30,7 @@ const Data = [
     image: IMG3,
     title: 'Vet Clinic: ',
     description:
-      'Building a Veterinary clinic web site with Next V12.2, React V18.2, photos and videos pexels.com',
+      'Building a Veterinary clinic web site with Next V12.2, React V18.2, photos and videos from pexels.com',
     github: 'https://github.com/caeserlondon/vet-clinic',
     demo: 'https://caeser-vet-clinic.vercel.app',
   },
@@ -39,7 +39,7 @@ const Data = [
     image: IMG4,
     title: 'Github Finder: ',
     description:
-      'Search and find Github users and view their profile, created with React, TailWind and Daisy UI.',
+      'Search for Github users and view their profile, using React, react-router, TailWind and DaisyUI.',
     github: 'https://github.com/caeserlondon/github-user-finder',
     demo: 'https://github-user-finder-caeser.vercel.app/',
   },
@@ -55,7 +55,7 @@ const Data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Colo Picker: ',
+    title: 'Color Picker: ',
     description:
       'Create a random color palette.Created using JavaScript, Chroma.js, HTML5, CSS3 and font awesome.',
     github: 'https://github.com/caeserlondon/Color-Picker',
