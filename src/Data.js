@@ -23,7 +23,7 @@ const Data = [
     description:
       'For listings properties for rent and sale. using React, firebase, google Auth, and leaflet-maps.',
     github: 'https://github.com/caeserlondon/london-home-finder',
-    demo: 'https://london-home-finder.web.app/',
+    demo: 'https://london-home-finder.web.app',
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const Data = [
     description:
       'Search for Github users and view their profile, using React, react-router, TailWind and DaisyUI.',
     github: 'https://github.com/caeserlondon/github-user-finder',
-    demo: 'https://github-user-finder-caeser.vercel.app/',
+    demo: 'https://github-user-finder-caeser.vercel.app',
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const Data = [
     description:
       'Create a random color palette.Created using JavaScript, Chroma.js, HTML5, CSS3 and font awesome.',
     github: 'https://github.com/caeserlondon/Color-Picker',
-    demo: 'https://caeser-color-picker.netlify.app/',
+    demo: 'https://caeser-color-picker.netlify.app',
   },
   // {
   //   id: 6,
