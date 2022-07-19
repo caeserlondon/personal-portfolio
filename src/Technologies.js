@@ -14,7 +14,7 @@ import IMG13 from '../src/assets/tech/javascript.png'
 import IMG14 from '../src/assets/tech/jest.png'
 import IMG15 from '../src/assets/tech/mongodb.png'
 import IMG16 from '../src/assets/tech/mysql.png'
-import IMG17 from '../src/assets/tech/express.png'
+// import IMG17 from '../src/assets/tech/express.png'
 import IMG18 from '../src/assets/tech/postgresql.svg'
 import IMG19 from '../src/assets/tech/nextJS.png'
 
@@ -23,7 +23,7 @@ import IMG22 from '../src/assets/tech/command.png'
 import IMG23 from '../src/assets/tech/ruby.svg'
 import IMG24 from '../src/assets/tech/vscode.svg'
 
-import IMG26 from '../src/assets/tech/webpack.svg'
+// import IMG26 from '../src/assets/tech/webpack.svg'
 import IMG27 from '../src/assets/tech/github.png'
 import IMG28 from '../src/assets/tech/rspec.png'
 import IMG29 from '../src/assets/tech/grafQL.png'
@@ -83,7 +83,7 @@ const Technologies = [
   },
   {
     id: 10,
-    title: 'Express',
+    title: 'Node',
     image: IMG10,
   },
   {
@@ -116,11 +116,11 @@ const Technologies = [
     title: 'My.SQL',
     image: IMG16,
   },
-  {
-    id: 17,
-    title: 'Node.JS',
-    image: IMG17,
-  },
+  // {
+  //   id: 17,
+  //   title: 'Express.js',
+  //   image: IMG17,
+  // },
   {
     id: 18,
     title: 'PostGreSQL',
@@ -153,11 +153,11 @@ const Technologies = [
     title: 'VsCode',
     image: IMG24,
   },
-  {
-    id: 26,
-    title: 'WebPack',
-    image: IMG26,
-  },
+  // {
+  //   id: 26,
+  //   title: 'WebPack',
+  //   image: IMG26,
+  // },
   {
     id: 27,
     title: 'Github',
