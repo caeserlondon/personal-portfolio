@@ -73,7 +73,7 @@ const Sidebar = () => {
             className="linked-link"
             target="_blanck"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/caeser-ibrahim-3bb4a322a/"
+            href="https://www.linkedin.com/in/caeser-ibrahim"
           >
             <AiOutlineLinkedin />
           </a>
