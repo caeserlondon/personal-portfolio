@@ -4,7 +4,7 @@
 
 #### Deployed on Vercel.com
 
-### https://caeser-ibrahim.vercel.app/
+### https://caeser-ibrahim.vercel.app
 
 ![screenshot 1](./src/assets/gallery/Screenshot1.jpg)
 
