@@ -49,6 +49,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
+            className="codewars-link"
             target="_blanck"
             rel="noreferrer"
             href="https://www.codewars.com/users/Caeser%20Ibrahim"
@@ -59,6 +60,7 @@ const Sidebar = () => {
 
         <li>
           <a
+            className="github-link"
             target="_blanck"
             rel="noreferrer"
             href="https://github.com/caeserlondon"
@@ -68,6 +70,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
+            className="linked-link"
             target="_blanck"
             rel="noreferrer"
             href="https://www.linkedin.com/in/caeser-ibrahim-3bb4a322a/"
@@ -76,7 +79,12 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a target="_blanck" rel="noreferrer" href="https://www.my-cv.com">
+          <a
+            className="onlineCv-link"
+            target="_blanck"
+            rel="noreferrer"
+            href="https://caeser-ibrahim.netlify.app"
+          >
             <CgNotes />
           </a>
         </li>
