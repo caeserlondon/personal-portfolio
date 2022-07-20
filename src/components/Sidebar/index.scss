@@ -118,8 +118,59 @@
         display: block;
         font-size: 27px;
         line-height: 16px;
-        &:hover svg {
+        position: relative;
+        i {
+          transition: all 0.3s ease-out;
+        }
+
+        &:hover {
           color: var(--primary-color);
+
+          svg {
+            opacity: 0;
+          }
+
+          &::after {
+            opacity: 1;
+          }
+        }
+
+        &::after {
+          content: '';
+          font-size: 12px;
+          margin-left: -10px;
+          font-weight: 300;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          position: absolute;
+          bottom: 0;
+          display: block;
+          width: 100%;
+          text-align: center;
+          opacity: 0;
+          transition: all 0.3s ease-out;
+        }
+      }
+      a.codewars-link {
+        &::after {
+          content: 'Code Wars';
+        }
+      }
+
+      a.github-link {
+        &::after {
+          content: 'Git Hub';
+        }
+      }
+
+      a.linked-link {
+        &::after {
+          content: 'Linked In';
+        }
+      }
+      a.onlineCv-link {
+        &::after {
+          content: 'On Line CV';
         }
       }
     }
