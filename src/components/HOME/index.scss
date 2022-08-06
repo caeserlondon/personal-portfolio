@@ -14,29 +14,6 @@
 
       // animation: name duration timing-function delay iteration-count direction fill-mode;
 
-      &::before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore';
-        color: var(--primary-color);
-        font-size: 18px;
-        position: absolute;
-        margin-top: -40px;
-        letter-spacing: 2px;
-        left: 15px;
-        opacity: 0.6;
-      }
-
-      &::after {
-        content: '</h1>';
-        font-family: 'La Belle Aurore';
-        color: var(--primary-color);
-        font-size: 18px;
-        letter-spacing: 2px;
-        position: absolute;
-        margin-top: 70px;
-        margin-left: -380px;
-        opacity: 0.6;
-      }
       // animation: name duration timing-function delay iteration-count direction fill-mode;
       img {
         width: 92px;
