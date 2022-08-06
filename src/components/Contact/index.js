@@ -1,14 +1,14 @@
-import React, { useEffect, useRef, useState } from 'react'
-import Loader from 'react-loaders'
-import './index.scss'
-import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
-import { MdAlternateEmail } from 'react-icons/md'
+import React, { useEffect, useRef, useState } from 'react'
+import { BiMailSend } from 'react-icons/bi'
 import { BsWhatsapp } from 'react-icons/bs'
 import { GiRotaryPhone } from 'react-icons/gi'
-import { BiMailSend } from 'react-icons/bi'
-import Envelop from '../CVEnvelop'
+import { MdAlternateEmail } from 'react-icons/md'
+import Loader from 'react-loaders'
 import CV from '../../assets/cv.pdf'
+import AnimatedLetters from '../AnimatedLetters'
+import Envelop from '../CVEnvelop'
+import './index.scss'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -56,13 +56,13 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={'Contact  me  .'.split('')}
+              strArray={'Contact  me  '.split('')}
               index={15}
             />
           </h1>
           <p>
-            I'm open to full time job offers or open source projects. if you
-            have any question or request, Please don't hasitate to contact me.
+            I'm open to full time job offers or open source projects. If you
+            have any question or request. Please don't hasitate to contact me.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -109,7 +109,7 @@ const Contact = () => {
           </article>
 
           <article className="contact-card">
-            <h4>Mobile IOS</h4>
+            <h4>Mobile</h4>
 
             <h5>
               <GiRotaryPhone /> 078 6886 3113
@@ -124,21 +124,6 @@ const Contact = () => {
             </a>
           </article>
 
-          <article className="contact-card">
-            <h4>Mobile Android</h4>
-
-            <h5>
-              <GiRotaryPhone /> 075 626 77052
-            </h5>
-            <BsWhatsapp />
-            <a
-              target="_blanck"
-              className="flat-button"
-              href="https://api.whatsapp.com/send?phone=4407562677052"
-            >
-              WhatsApp call or text
-            </a>
-          </article>
           <a href={CV} download className="cv-envelop">
             <Envelop />
           </a>
