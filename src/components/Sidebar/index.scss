@@ -159,18 +159,18 @@
 
       a.github-link {
         &::after {
-          content: 'Git Hub';
+          content: 'GITHUB';
         }
       }
 
       a.linked-link {
         &::after {
-          content: 'Linked In';
+          content: 'LINKEDIN';
         }
       }
       a.onlineCv-link {
         &::after {
-          content: 'On Line CV';
+          content: 'ONLINE CV';
         }
       }
     }
