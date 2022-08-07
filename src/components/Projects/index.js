@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import './index.scss'
-import AnimatedLetters from '../AnimatedLetters'
 import Data from '../../Data'
+import AnimatedLetters from '../AnimatedLetters'
+import './index.scss'
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const projArray = ['Some', ' ', 'Off', ' ', 'My', ' ', 'Projects', ' ', ':']
+  const projArray = ['Some', ' ', 'Of', ' ', 'My', ' ', 'Projects', ' ', ':']
 
   useEffect(() => {
     setTimeout(() => {
