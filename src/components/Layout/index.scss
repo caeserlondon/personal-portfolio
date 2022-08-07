@@ -4,24 +4,6 @@
   position: absolute;
 }
 
-.top-tags {
-  bottom: auto;
-  top: 35px;
-}
-
-.tags {
-  color: var(--primary-color);
-  opacity: 0.6;
-  position: absolute;
-  bottom: 22px;
-  left: 120px;
-  font-size: 18px;
-  font-family: 'La Belle Aurore';
-}
-.bottom-tag-html {
-  margin-left: -20px;
-}
-
 .container {
   width: 100%;
   will-change: contents;
