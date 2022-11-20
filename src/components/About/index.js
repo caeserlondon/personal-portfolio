@@ -1,15 +1,21 @@
-import React from 'react'
-import { useEffect, useState } from 'react'
-import { FaBootstrap, FaHtml5, FaGitSquare, FaAngular } from 'react-icons/fa'
-import { FaReact, FaSass, FaNodeJs } from 'react-icons/fa'
-import { FaCss3Alt } from 'react-icons/fa'
-import { SiAdobephotoshop, SiAdobexd, SiJavascript } from 'react-icons/si'
+import React, { useEffect, useState } from 'react'
 import { DiRuby } from 'react-icons/di'
+import {
+  FaAngular,
+  FaBootstrap,
+  FaCss3Alt,
+  FaGitSquare,
+  FaHtml5,
+  FaNodeJs,
+  FaReact,
+  FaSass,
+} from 'react-icons/fa'
+import { SiAdobephotoshop, SiAdobexd, SiJavascript } from 'react-icons/si'
 
-import AnimatedLetters from '../AnimatedLetters'
-import './index.scss'
 import Loader from 'react-loaders'
 import Technologies from '../../Technologies'
+import AnimatedLetters from '../AnimatedLetters'
+import './index.scss'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -32,9 +38,9 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious Full-stack junior software developer and
-            graphic designer with a bachelor's degree in architectural
-            engineering and interior design.
+            I'm a very ambitious Full-stack software developer and graphic
+            designer with a bachelor's degree in architectural engineering and
+            interior design.
           </p>
           <br />
           <p>
