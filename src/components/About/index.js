@@ -38,9 +38,8 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious Full-stack software developer and graphic
-            designer with a bachelor's degree in architectural engineering and
-            interior design.
+            I'm a driven Full-Stack software developer and graphic designer with
+            a background in architectural engineering and interior design.
           </p>
           <br />
           <p>
