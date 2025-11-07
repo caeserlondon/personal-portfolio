@@ -25,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm install ajv@6 ajv-keywords@3"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +48,9 @@
   },
   "engines": {
     "node": "22.x"
+  },
+  "devDependencies": {
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2"
   }
 }
