@@ -1,11 +1,13 @@
-import IMG1 from './assets/gallery/yum-yum.jpg'
+import IMG3 from './assets/gallery/caeser-resort.png'
+import IMG7 from './assets/gallery/car-dealership.jpg'
+import IMG8 from './assets/gallery/color-picker.jpg'
+import IMG4 from './assets/gallery/dubai-homes.png'
+import IMG6 from './assets/gallery/github-finder.jpg'
 import IMG2 from './assets/gallery/london-home-finder.jpg'
-import IMG3 from './assets/gallery/vet-clinic.jpg'
-import IMG4 from './assets/gallery/github-finder.jpg'
-import IMG5 from './assets/gallery/car-dealership.jpg'
-import IMG6 from './assets/gallery/color-picker.jpg'
+import IMG5 from './assets/gallery/vet-clinic.jpg'
+import IMG1 from './assets/gallery/yum-yum.jpg'
 
-// --- 6 projects
+// --- 8 projects
 const Data = [
   {
     id: 1,
@@ -28,6 +30,24 @@ const Data = [
   {
     id: 3,
     image: IMG3,
+    title: 'Caeser resort: ',
+    description:
+      'A modern, responsive hotel management application built with React, TanStack Query, PostgreSQL, Supabase, and Recharts.',
+    github: 'https://github.com/caeserlondon/caeser-resort',
+    demo: 'https://caeser-resort.vercel.app/',
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Dubai Homes: ',
+    description:
+      'Dubai Homes fetches real-time data from RapidAPI to display properties available for sale and for rent using Next.js, React 18, Chakra UI and Emotion.',
+    github: 'https://github.com/caeserlondon/dubai-homes',
+    demo: 'https://dubai-homes.vercel.app/',
+  },
+  {
+    id: 5,
+    image: IMG5,
     title: 'Vet Clinic: ',
     description:
       'Building a Veterinary clinic web site with Next V12.2, React V18.2, photos and videos from pexels.com',
@@ -35,8 +55,8 @@ const Data = [
     demo: 'https://caeser-vet-clinic.vercel.app',
   },
   {
-    id: 4,
-    image: IMG4,
+    id: 6,
+    image: IMG6,
     title: 'Github Finder: ',
     description:
       'Search for Github users and view their profile, using React, react-router, TailWind and DaisyUI.',
@@ -44,8 +64,8 @@ const Data = [
     demo: 'https://github-user-finder-caeser.vercel.app',
   },
   {
-    id: 5,
-    image: IMG5,
+    id: 7,
+    image: IMG7,
     title: 'Car Dealership: ',
     description:
       'Building a fully responsive Classic Car Dealer website, using HTML, CSS, jQuery and font awesome.',
@@ -53,14 +73,15 @@ const Data = [
     demo: 'https://caesers-classic-cars.netlify.app',
   },
   {
-    id: 6,
-    image: IMG6,
+    id: 8,
+    image: IMG8,
     title: 'Color Picker: ',
     description:
       'Create a random color palette.Created using JavaScript, Chroma.js, HTML5, CSS3 and font awesome.',
     github: 'https://github.com/caeserlondon/Color-Picker',
     demo: 'https://caeser-color-picker.netlify.app',
   },
+
   // {
   //   id: 6,
   //   image: IMG1,
