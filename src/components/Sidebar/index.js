@@ -1,13 +1,13 @@
 import React from 'react'
-import './index.scss'
-import { NavLink } from 'react-router-dom'
 import { AiOutlineHome, AiOutlineLinkedin } from 'react-icons/ai'
-import { FiUser } from 'react-icons/fi'
-import { FaRegEnvelope } from 'react-icons/fa'
-import { VscGithub } from 'react-icons/vsc'
-import { SiCodewars } from 'react-icons/si'
 import { BsEye } from 'react-icons/bs'
 import { CgNotes } from 'react-icons/cg'
+import { FaRegEnvelope } from 'react-icons/fa'
+import { FiUser } from 'react-icons/fi'
+import { SiCodewars } from 'react-icons/si'
+import { VscGithub } from 'react-icons/vsc'
+import { NavLink } from 'react-router-dom'
+import './index.scss'
 
 const Sidebar = () => {
   return (
@@ -16,6 +16,16 @@ const Sidebar = () => {
         {/* home */}
         <NavLink exact="true" activeclassname="active" to="/">
           <AiOutlineHome />
+        </NavLink>
+
+        {/* projects */}
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="projects-link"
+          to="/projects"
+        >
+          <BsEye />
         </NavLink>
 
         {/* about-me */}
@@ -27,15 +37,7 @@ const Sidebar = () => {
         >
           <FiUser />
         </NavLink>
-        {/* projects */}
-        <NavLink
-          exact="true"
-          activeclassname="active"
-          className="projects-link"
-          to="/projects"
-        >
-          <BsEye />
-        </NavLink>
+
         {/* contact  */}
         <NavLink
           exact="true"
