@@ -1,22 +1,25 @@
 import IMG3 from './assets/gallery/caeser-resort.png'
-import IMG7 from './assets/gallery/car-dealership.jpg'
-import IMG8 from './assets/gallery/color-picker.jpg'
-import IMG4 from './assets/gallery/dubai-homes.png'
-import IMG6 from './assets/gallery/github-finder.jpg'
 import IMG2 from './assets/gallery/london-home-finder.jpg'
-import IMG5 from './assets/gallery/vet-clinic.jpg'
-import IMG1 from './assets/gallery/yum-yum.jpg'
+import IMG1 from './assets/gallery/store-screen.png'
 
-// --- 8 projects
+import IMG6 from './assets/gallery/dubai-homes.png'
+import IMG5 from './assets/gallery/vet-clinic.jpg'
+import IMG4 from './assets/gallery/yum-yum.jpg'
+
+import IMG8 from './assets/gallery/car-dealership.jpg'
+import IMG9 from './assets/gallery/color-picker.jpg'
+import IMG7 from './assets/gallery/github-finder.jpg'
+
+// --- 9 projects
 const Data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Yum Yum: ',
+    title: 'Caeser Store: ',
     description:
-      'Recipe Website using Spoonacular API, Multiple Themes, Made using React 18, React Icons and SASS.',
-    github: 'https://github.com/caeserlondon/Yum-Yum',
-    demo: 'https://yum-yum-caeserlondon.vercel.app',
+      'E-commerce platform built with Next.js and MongoDB, inspired by Amazon shopping experience. Browse products, manage inventory, process payments',
+    github: 'https://github.com/caeserlondon/caeser-clothing-store',
+    demo: 'https://caeser-store.vercel.app',
   },
   {
     id: 2,
@@ -39,11 +42,11 @@ const Data = [
   {
     id: 4,
     image: IMG4,
-    title: 'Dubai Homes: ',
+    title: 'Yum Yum: ',
     description:
-      'Dubai Homes fetches real-time data from RapidAPI to display properties available for sale and for rent using Next.js, React 18, Chakra UI and Emotion.',
-    github: 'https://github.com/caeserlondon/dubai-homes',
-    demo: 'https://dubai-homes.vercel.app/',
+      'Recipe Website using Spoonacular API, Multiple Themes, Made using React 18, React Icons and SASS.',
+    github: 'https://github.com/caeserlondon/Yum-Yum',
+    demo: 'https://yum-yum-caeserlondon.vercel.app',
   },
   {
     id: 5,
@@ -54,9 +57,20 @@ const Data = [
     github: 'https://github.com/caeserlondon/vet-clinic',
     demo: 'https://caeser-vet-clinic.vercel.app',
   },
+
   {
     id: 6,
     image: IMG6,
+    title: 'Dubai Homes: ',
+    description:
+      'Dubai Homes fetches real-time data from RapidAPI to display properties available for sale and for rent using Next.js, React 18, Chakra UI and Emotion.',
+    github: 'https://github.com/caeserlondon/dubai-homes',
+    demo: 'https://dubai-homes.vercel.app/',
+  },
+
+  {
+    id: 7,
+    image: IMG7,
     title: 'Github Finder: ',
     description:
       'Search for Github users and view their profile, using React, react-router, TailWind and DaisyUI.',
@@ -64,8 +78,8 @@ const Data = [
     demo: 'https://github-user-finder-caeser.vercel.app',
   },
   {
-    id: 7,
-    image: IMG7,
+    id: 8,
+    image: IMG8,
     title: 'Car Dealership: ',
     description:
       'Building a fully responsive Classic Car Dealer website, using HTML, CSS, jQuery and font awesome.',
@@ -73,8 +87,8 @@ const Data = [
     demo: 'https://caesers-classic-cars.netlify.app',
   },
   {
-    id: 8,
-    image: IMG8,
+    id: 9,
+    image: IMG9,
     title: 'Color Picker: ',
     description:
       'Create a random color palette.Created using JavaScript, Chroma.js, HTML5, CSS3 and font awesome.',
